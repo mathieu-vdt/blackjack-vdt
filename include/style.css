@@ -1,0 +1,160 @@
+/* Page */
+body{
+    background-color: rgb(20, 37, 19);
+}
+
+
+/* Boutons */
+button{
+    background-color: rgb(243, 239, 234);
+    color:rgb(9, 10, 12);
+    padding: 10px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px;
+    font-size: 19px;
+    text-align: center;
+}
+
+button:hover{
+    background-color:rgb(142, 146, 155);
+    color:rgb(243, 239, 234);
+}
+
+.buttons{
+    text-align: center;
+}
+
+.portefeuilleDiv{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#Commencer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    display: none;
+}
+
+#Relancer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    display: none;
+}
+/* div */
+
+.Joueurs{
+    display: flex;
+}
+.joueur{
+    margin: 8px;
+    padding: 8px;
+    width: 45%;
+    height: 40%;
+    border-radius: 5px;
+    border: solid;
+    border-color: rgb(243, 239, 234);
+    display:block;
+}
+
+.croupier-cadre{
+    margin: 8px;
+    padding: 8px;
+    width: 45%;
+    height: 40%;
+    border-radius: 5px;
+    border: solid;
+    border-color: rgb(243, 239, 234);
+    display: none;
+}
+
+.Game{
+    align-content: center;
+    display: block;
+    
+}
+
+.start{
+    display: block;
+}
+
+/* formulaire */
+form{
+    color: rgb(243, 239, 234);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Tableaux */
+td{
+    color: rgb(243, 239, 234);
+}
+
+/* Titres et textes */
+h1{
+    color: rgb(243, 239, 234);
+}
+
+h2{
+    color: rgb(243, 239, 234);
+}
+
+p{
+    color: rgb(243, 239, 234);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titre{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Buttontitre{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+span{
+    color:rgb(243, 239, 234);
+}
+
+/* Formulaires */
+  input[type=text]{
+    border: 3px solid rgb(243, 239, 234);;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid rgb(243, 239, 234);;
+  }
+
+  /* Rotation et dézoome */
+img {
+	-webkit-transform: rotate(10deg) scale(1.25);
+	transform: rotate(10deg) scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+img:hover {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+
+@keyframes fade {
+    From {
+      Opacity : 0;
+    }
+    To {
+      Opacity : 1;
+    }
+  }
+
+.swal-modal{
+    background-color: rgb(20, 37, 19);
+    border: 1px solid rgb(208, 211, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.swal-title{
+    color: aliceblue;
+    font-size: 18px;
+}

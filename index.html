@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="include/blackbot.js"></script>
+    <script type="text/javascript" src="include/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="include/main.js"></script>
+    <link rel="stylesheet" href="./include/style.css">
+    <title>Projet</title>
+</head>
+<body>
+    <center><button onclick="raz()" id="Buttontitre"><h1 id="titre">Blackjack</h1></button></center><br>
+
+    <div class="start">
+        <center>
+            <form>
+                <p>Nombre de joueurs :</p>
+                <input id="nbJoueur" type="number" value=1 size = "3px">
+            </form><br>
+                    <button id="NewGame" onclick="NewGame()" >
+                        Nouvelle Partie
+                    </button>
+        </center>
+    </div>
+<div class="Game" style="">
+    <center><div class="Croupier">
+        <div class="croupier-cadre">
+            <!--dans le span sera affiché le score du croupier-->
+            <h2><center>Croupier - <span id='scoreCroupier'></span></center></h2>
+            <center><p>Cartes :</p>
+                <p id='cartesC'></p>
+            </center>
+            <p></p>
+        </div>
+    </center></div>
+
+    <!--Les divisions comprenant les joueurs seront crée dans la div juste en dessous -->
+    <center><div class="Joueurs" horizontal layout> </div></center>
+</div>
+
+<center><button id="Commencer" onclick="Commencer()">Commencer</button></center>
+<center><button id="Relancer" onclick="Relancer()">Relancer</button></center>
+
+
+
+
+</body>
+</html>
